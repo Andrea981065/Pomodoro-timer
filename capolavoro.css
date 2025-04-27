@@ -1,0 +1,38 @@
+body {
+    background: #f2f2f2;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    text-align: center;
+  }
+  
+  #timer {
+    font-size: 5rem;
+    margin: 1rem 0;
+  }
+  
+  .buttons button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ff6b6b;
+    color: white;
+    transition: background 0.3s;
+  }
+  
+  .buttons button:hover {
+    background-color: #ff4c4c;
+  }
+  
